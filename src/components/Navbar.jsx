@@ -1,24 +1,24 @@
 import React from "react";
 
-
 function Navbar() {
     return (
         <nav className="nav">
         <div>
-          <a> Profile</a>
+          <a href="#"> Profile</a>
         </div>
         <div>
-          <a> Messages</a>
+          <a href="#"> Messages</a>
         </div>
         <div>
-          <a> News</a>
+          <a href="#">
+            News
+          </a>
         </div>
         <div>
-          <a> Music</a>
+          <a href="#">Music</a>
         </div>
-
         <div>
-          <a> Settings</a>
+          <a href="#">Settings</a>
         </div>
       </nav>
     )
