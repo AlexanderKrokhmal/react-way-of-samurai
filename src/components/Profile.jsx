@@ -1,4 +1,6 @@
 import React from "react";
+import './Profile.css'
+
 
 function Profile() {
     return (
@@ -15,11 +17,11 @@ function Profile() {
         <div>
           New posts
         </div>
-        <div>
-          <div>
+        <div className="posts">
+          <div className="item">
             post 1
           </div>
-          <div>
+          <div className="item">
             post 24
           </div>
         </div>

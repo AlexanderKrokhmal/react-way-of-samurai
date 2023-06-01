@@ -1,0 +1,12 @@
+.header {
+  grid-area: h;
+  background-color: green;
+  background-image: url('../../public/images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header img {
+  width: 20px;
+}
+
