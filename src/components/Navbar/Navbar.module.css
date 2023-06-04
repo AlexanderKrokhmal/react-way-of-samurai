@@ -1,8 +1,33 @@
 .nav {
   grid-area: n;
-  background-color: aqua;
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
 }
 
-.item {
-  color: white;
+.nav_link {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+
+  background: white;
+  color: gray;
+  border-radius: 4px;
+  padding: 8px;
 }
+
+.nav_link:hover {
+  color: white;
+  background: cadetblue;
+}
+
+.nav_link.active {
+  color: white;
+  background: cadetblue;
+}
+
